@@ -1,0 +1,56 @@
+
+a:hover {
+    text-decoration: none
+}
+
+input[type=text] {
+    height: 45px;
+    border: 2px solid crimson;
+    border-radius: 0;
+}
+
+input[type=submit] {
+    color: white;
+    height: 45px;
+    background-color: #e0a800;
+    border: 2px solid crimson;
+    border-radius: 0 5px 5px 0;
+}
+.todo {
+    margin-top: 50px;
+    margin-bottom:10px;
+    text-align: left
+}
+
+.todo .todolst {
+    background-color: white;
+    height: 49px;
+    line-height: 2.5rem;
+    margin: 3px auto;
+    padding-left: 10px;
+    border-bottom: 2px solid rgb(233, 10, 77);
+    border-top: 2px solid rgb(233, 10, 77);
+    border-radius: 0 5px 5px 0;
+
+}
+.todolst > p{
+    max-width: 400px;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+.todo > div {
+    width: 100%;
+
+}
+
+.todo a, .todo a + button {
+    margin: 3px 1px
+
+}
+.back a{
+    float:right;
+    border-radius: 5px 0  0 5px;
+}
+
+
